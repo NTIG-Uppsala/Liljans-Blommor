@@ -18,6 +18,8 @@ html, body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: linear-gradient(to bottom right, rgba(34, 168, 85, 0.1), white, rgba(181, 111, 220, 0.1))
+    
 }
 
 header{
@@ -35,7 +37,7 @@ header > h1{
 .header-gradient{
     height: 7.5vw;
     width: 100%;
-    background-image: linear-gradient(to right, var(--color3), var(--color2));
+    background-image: linear-gradient(to right, rgba(34, 74, 168, 0.8), rgba(181, 111, 220, 0.8));
     align-content: center;
 }
 
