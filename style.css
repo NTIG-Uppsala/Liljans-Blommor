@@ -1,1 +1,43 @@
+:root{
+    --color1: #e9F1F7;
+    --color2: #B56FDC;
+    --color3: #224AA8;
+    --color4: #C4C1DC;
+}
 
+header{
+    
+    margin: 1vw;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    height: 7.5vw;
+    width: 100%;
+    background-image: linear-gradient(to right, var(--color3), var(--color2));
+}
+h2{
+    font-size: 5em;
+    text-align: center;
+}
+
+.text{
+    background-color: var(--color1);
+    margin: 2.5vw 10vw;
+    line-height: 1vw;
+    padding: 0.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    position: fixed;
+    padding-left: 1vw;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--color4);
+    color: white;
+}
