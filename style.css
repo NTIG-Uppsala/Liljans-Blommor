@@ -5,8 +5,13 @@
     --color4: #C4C1DC;
 }
 
+@font-face {
+    font-family: aprila;
+    src: url(BAAAAA_Aprila_Regular.otf);
+}
+
 header{
-    
+    font-family: aprila;
     margin: 1vw;
 }
 
@@ -20,6 +25,7 @@ nav{
     background-image: linear-gradient(to right, var(--color3), var(--color2));
 }
 h2{
+    font-family: aprila;
     font-size: 5em;
     text-align: center;
 }
