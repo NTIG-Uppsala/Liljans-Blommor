@@ -137,18 +137,20 @@ footer{
         margin: 10px -10px;
     }
     .header-gradient > nav{
-        display: grid;
-        grid-template-rows: auto;
-        max-height: 17vw;
-        margin: auto 10vw;
-        max-width: 80vw;
+        display: grid;         
+        grid-template-columns: 1fr 1fr;         
+        grid-template-rows: auto auto;         
+        max-height: 17vw;         
+        justify-self: ;
     }
     .text{
         margin: 2.5vw 5vw;
     }
     .header-gradient{
     height: 18vw;
-    
+    .navText{
+        text-align: center;
+    }
 
 }
 
