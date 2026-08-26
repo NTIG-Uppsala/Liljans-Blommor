@@ -84,14 +84,14 @@ h2{
     justify-content: center;
 }
 
+
+
 .gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    max-width: 1000vh;
+    max-width: 100%;
 }
-
-
 
 .gallery-item{
     width:25%;
@@ -101,11 +101,14 @@ h2{
     height:auto;
 }
 
-
-
 div.gallery-item {
   margin: 1%;
 }
+
+/* fix text size here
+.desc {
+
+} */
 
 
 main{
@@ -120,4 +123,33 @@ footer{
     height: fit-content;
     background-color: var(--color4);
     color: white;
+}
+
+@media screen and (max-width: 480px) {
+    h2{
+        font-size: 200%;
+    }
+    .gallery-item{
+        width: 50%;
+        
+    }
+    div.gallery-item {
+        margin: 10px -10px;
+    }
+    .header-gradient > nav{
+        display: grid;
+        grid-template-rows: auto;
+        max-height: 17vw;
+        margin: auto 10vw;
+        max-width: 80vw;
+    }
+    .text{
+        margin: 2.5vw 5vw;
+    }
+    .header-gradient{
+    height: 18vw;
+    
+
+}
+
 }
