@@ -10,11 +10,6 @@
     src: url(BAAAAA_Aprila_Regular.otf);
 }
 
-header{
-    font-family: aprila;
-    margin: 1vw;
-}
-
 html, body{
     margin: 0;
     max-width: 100%;
@@ -22,14 +17,56 @@ html, body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, rgba(34, 168, 85, 0.1), white, rgba(181, 111, 220, 0.1))
+    
 }
 
-nav{
+header{
+    display: flex;
+    flex-direction: column;
+    font-family: aprila;
+    margin: 1vw;
+    margin: 0;
+}
+
+header > h1{
+    margin-left: 10vw;
+}
+
+.header-gradient{
     height: 7.5vw;
     width: 100%;
-    background-image: linear-gradient(to right, var(--color3), var(--color2));
+    background-image: linear-gradient(to right, rgba(34, 74, 168, 0.8), rgba(181, 111, 220, 0.8));
+    align-content: center;
 }
+
+.header-gradient > nav{
+    display: flex;
+    background-color: white;
+    height: 75%;
+    margin: auto 10vw;
+    border-radius: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.35rem;
+}
+
+.header-gradient > nav > a{
+    text-decoration: none;
+    transition: 0.17s;
+    color: var(--color3);
+    background: none;
+    padding: 0.7% 2%;
+    border-radius: 100px;
+}
+
+.header-gradient > nav > a:hover{
+    color: var(--color2);
+    background-color: rgb(243, 243, 243);
+}
+
 h2{
     font-family: aprila;
     font-size: 5rem;
@@ -47,19 +84,31 @@ h2{
     justify-content: center;
 }
 
-
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: center; 
+    max-width: 1000vh;
 }
+
+
+
+.gallery-item{
+    width:25%;
+    float: left; 
+    margin-bottom: 100%;
+    margin-right: 5%;
+    height:auto;
+}
+
+
 
 div.gallery-item {
   margin: 1%;
 }
 
-.main-content{
+
+main{
     flex: 1;
 }
 
