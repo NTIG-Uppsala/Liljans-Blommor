@@ -10,6 +10,11 @@
     src: url(BAAAAA_Aprila_Regular.otf);
 }
 
+img{
+
+    border-radius: 100%;
+}
+
 html, body{
     margin: 0;
     max-width: 100%;
@@ -82,6 +87,8 @@ h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
+
+    border-radius: 20px;
 }
 
 
@@ -98,7 +105,7 @@ h2{
     float: left; 
     margin-bottom: 100%;
     margin-right: 5%;
-    height:auto;
+    height:auto;    
 }
 
 div.gallery-item {
