@@ -95,6 +95,12 @@ h2{
 h3{
     font-family: niconne;
     font-size: 1.8rem;
+    text-align: center;
+    margin-top: -4%;
+}
+
+.OpeningTimes{
+    text-align: right;
 }
 
 .text{
