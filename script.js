@@ -18,7 +18,7 @@ const change_prices = () => {
         }
 
         localStorage.setItem("taxes", "inkl");
-        button.innerHTML = "Inkludera moms";
+        button.innerHTML = "Exkludera moms";
 
     } else {
         for (let i = 0; i < prices.length; i++) {
@@ -31,13 +31,14 @@ const change_prices = () => {
         }
 
         localStorage.setItem("taxes", "exkl");
-        button.innerHTML = "Exkludera moms";
+        button.innerHTML = "Inkludera moms";
 
     }
 }
 
 
 if (localStorage.getItem("taxes") === "exkl") {
+    localStorage.setItem("taxes", "inkl");
     change_prices();
 }
 
