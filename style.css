@@ -37,7 +37,12 @@ header{
 
 header > h1{
     margin-left: 10vw;
+
 }
+
+/* .Tel{
+    margin-right: 10vw;
+} */
 
 .header-gradient{
     height: 7.5vw;
@@ -78,6 +83,18 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -4%;
+}
+
+
+.OpeningTimes{
+    text-align: right;
+}
+
 .text{
     background-color: var(--color1);
     margin: 2.5vw 10vw;
@@ -91,7 +108,10 @@ h2{
     border-radius: 20px;
 }
 
-
+.tel{ 
+    float:right; 
+    margin-right:10vw;
+}
 
 .gallery{
     display: flex;
@@ -117,6 +137,9 @@ div.gallery-item {
 
 } */
 
+h4{
+    font-size: 1.17em;
+}
 
 main{
     flex: 1;
@@ -154,6 +177,7 @@ footer{
     }
     .header-gradient{
     height: 18vw;
+    }
     .navText{
         text-align: center;
     }
@@ -161,6 +185,10 @@ footer{
         text-align: center;
     }
 
-}
+    .tel{
+        text-align: left;
+        float: none;
+        margin-right: 0;
+    }
 
 }
