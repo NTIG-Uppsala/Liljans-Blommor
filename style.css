@@ -91,7 +91,24 @@ h2{
     border-radius: 20px;
 }
 
+.products-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh; 
+    margin-bottom: 2vh;
+}
 
+.products-button > a{
+    background-color: white;
+    padding: 0.5vw;
+    border-radius: 10rem;
+    text-decoration: none;
+}
+
+.products-button > a:hover{
+    color: var(--color2);
+    background-color: rgb(243, 243, 243);
+}
 
 .gallery{
     display: flex;
@@ -147,8 +164,7 @@ footer{
         display: grid;         
         grid-template-columns: 1fr 1fr;         
         grid-template-rows: auto auto;         
-        max-height: 17vw;         
-        justify-self: ;
+        max-height: 17vw;
     }
     .text{
         margin: 2.5vw 5vw;
