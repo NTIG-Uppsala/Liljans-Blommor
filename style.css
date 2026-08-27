@@ -41,7 +41,12 @@ header{
 
 header > h1{
     margin-left: 10vw;
+
 }
+
+/* .Tel{
+    margin-right: 10vw;
+} */
 
 .header-gradient{
     height: 7.5vw;
@@ -103,6 +108,11 @@ h3{
     justify-content: center;
 
     border-radius: 20px;
+}
+
+.tel{ 
+    float:right; 
+    margin-right:10vw;
 }
 
 button{
@@ -171,6 +181,9 @@ div.gallery-item {
 
 } */
 
+h4{
+    font-size: 1.17em;
+}
 
 main{
     flex: 1;
@@ -208,6 +221,7 @@ footer{
     }
     .header-gradient{
     height: 18vw;
+    }
     .navText{
         text-align: center;
     }
@@ -215,6 +229,14 @@ footer{
         text-align: center;
     }
 
-}
+    .tel{
+        text-align: left;
+        float: none;
+        margin-right: 0;
+    }
+
+    h1{
+        line-height: normal;
+    }
 
 }
