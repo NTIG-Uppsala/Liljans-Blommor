@@ -164,7 +164,7 @@ footer{
         display: grid;         
         grid-template-columns: 1fr 1fr;         
         grid-template-rows: auto auto;         
-        max-height: 17vw;
+        max-height: 17vw;         
     }
     .text{
         margin: 2.5vw 5vw;
@@ -172,6 +172,9 @@ footer{
     .header-gradient{
     height: 18vw;
     .navText{
+        text-align: center;
+    }
+    .navBarText{
         text-align: center;
     }
 
