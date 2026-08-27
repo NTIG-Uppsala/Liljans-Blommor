@@ -91,6 +91,29 @@ h2{
     border-radius: 20px;
 }
 
+button{
+    background-color: rgba(181, 111, 220, 0.6);
+    border-radius: 20rem;
+    padding: 0.5rem 1rem;
+    opacity: 65%;
+    border-style: none;
+
+    text-decoration: none;
+    transition: 0.17s;
+    color: var(--color3);
+    border-radius: 100rem;
+
+    float: right;
+}
+
+button:hover{
+    opacity: 80%;
+    transform: translateY(-2px);
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.6);
+}
+
 .products-button {
     display: flex;
     justify-content: center;
