@@ -6,12 +6,16 @@
 }
 
 @font-face {
-    font-family: aprila;
-    src: url(BAAAAA_Aprila_Regular.otf);
+    font-family: niconne;
+    src: url(Niconne-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-VariableFont_wdth\,wght.ttf);
 }
 
 img{
-
     border-radius: 100%;
 }
 
@@ -23,14 +27,14 @@ html, body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(to bottom right, rgba(34, 168, 85, 0.1), white, rgba(181, 111, 220, 0.1))
-    
+    background: linear-gradient(to bottom right, rgba(34, 168, 85, 0.1), white, rgba(181, 111, 220, 0.1));
+    font-family: roboto;
 }
 
 header{
     display: flex;
     flex-direction: column;
-    font-family: aprila;
+    font-family: niconne;
     margin: 1vw;
     margin: 0;
 }
@@ -72,10 +76,20 @@ header > h1{
     background-color: rgb(243, 243, 243);
 }
 
+h1{
+    font-family: niconne;
+    font-size: 2.5rem;
+}
+
 h2{
-    font-family: aprila;
+    font-family: niconne;
     font-size: 5rem;
     text-align: center;
+}
+
+h3{
+    font-family: niconne;
+    font-size: 1.8rem;
 }
 
 .text{
